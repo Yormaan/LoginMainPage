@@ -1,0 +1,10 @@
+<resources>
+    <string name="app_name">LoginAndMainPage</string>
+    <string name="ecommerceTitle">E-Commerce</string>
+    <string name="enterEmailTitle">Correo</string>
+    <string name="enterPasswordTitle">Contraseña</string>
+    <string name="loginButtonText">Iniciar sesión</string>
+    <string name="forgotPasswordText">Recuperar contraseña</string>
+    <string name="registerNowText">Registrarse</string>
+    <string name="splashEcommerceText">E-Commerce</string>
+</resources>
