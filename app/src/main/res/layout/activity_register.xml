@@ -4,7 +4,7 @@
     xmlns:tools="http://schemas.android.com/tools"
     android:layout_width="match_parent"
     android:layout_height="match_parent"
-    android:background="#2D6530"
+    android:background="#409E45"
     tools:context=".RegisterActivity">
 
     <ScrollView
@@ -29,11 +29,15 @@
                 android:textStyle="bold" />
 
             <ImageView
-                android:id="@+id/imageView"
-                android:layout_width="wrap_content"
-                android:layout_height="wrap_content"
+                android:id="@+id/LaFoto"
+                android:layout_width="212dp"
+                android:layout_height="95dp"
                 android:layout_marginTop="16dp"
-                app:srcCompat="@drawable/ic_launcher_foreground" />
+                android:onClick="onclick"
+                app:srcCompat="@mipmap/userpicturei"
+                tools:ignore="OnClick"
+                tools:srcCompat="@mipmap/userpicturei" />
+
 
             <androidx.constraintlayout.widget.ConstraintLayout
                 android:id="@+id/linearLayout"
