@@ -28,7 +28,7 @@
                     app:fontFamily="@font/bubbler_one"
                     android:textAllCaps="false"
                     android:textColor="#D6D6D6"
-                    android:textSize="36sp"
+                    android:textSize="38sp"
                     android:textStyle="bold"/>
 
             <ImageView
@@ -210,13 +210,13 @@
                 android:orientation="horizontal">
 
                 <Button
-                        android:id="@+id/button2"
+                        android:id="@+id/btn_forgot_pass_register_id"
                         android:layout_width="wrap_content"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="80dp"
                         android:layout_marginEnd="16dp"
                         android:background="@android:color/transparent"
-                        android:text="@string/register_now_text_btn"
+                        android:text="@string/forgot_password_text_btn"
                         android:textColor="#D6D6D6"
                         android:textSize="12sp"/>
 
@@ -229,8 +229,8 @@
                     android:textStyle="bold" />
 
                 <Button
-                        android:id="@+id/button3"
-                        android:layout_width="wrap_content"
+                        android:id="@+id/btn_login_register_id"
+                        android:layout_width="115dp"
                         android:layout_height="wrap_content"
                         android:layout_marginStart="16dp"
                         android:layout_marginEnd="100dp"
