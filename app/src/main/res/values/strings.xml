@@ -11,4 +11,5 @@
     <string name="register_now_text_btn">REGISTER NOW</string>
     <string name="login_now_text_btn">LOGIN NOW</string>
     <string name="get_password_btn_text">GET PASSWORD</string>
+    <string name="forgot_password_text_btn">FORGOT PASSWORD</string>
 </resources>
