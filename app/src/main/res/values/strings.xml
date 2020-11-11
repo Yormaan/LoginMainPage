@@ -11,4 +11,10 @@
     <string name="register_now_text_btn">REGISTER NOW</string>
     <string name="login_now_text_btn">LOGIN NOW</string>
     <string name="get_password_btn_text">GET PASSWORD</string>
+
+    <string name="my_files">My Files</string>
+    <string name="shared">Shared</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
+
 </resources>

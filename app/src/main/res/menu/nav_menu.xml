@@ -1,0 +1,37 @@
+<?xml version="1.0" encoding="utf-8"?>
+<menu xmlns:android="http://schemas.android.com/apk/res/android">
+
+    <item android:title="">
+        <menu>
+            <item android:title="Home"
+                android:icon="@mipmap/home_icon" />
+            <item android:title="Category"
+                android:icon="@mipmap/category_icon" />
+            <item android:title="Product"
+                android:icon="@mipmap/product_icon" />
+            <item android:title="Order"
+                android:icon="@mipmap/order_icon" />
+            <item android:title="Order Tracking"
+                android:icon="@mipmap/order_tracking_icon" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item android:title="List OS"
+                android:icon="@mipmap/list_os_icon" />
+        </menu>
+    </item>
+
+    <item android:title="">
+        <menu>
+            <item android:title="Help"
+                android:icon="@mipmap/help_icon" />
+            <item android:title="Profile"
+                android:icon="@mipmap/userpicturei" />
+            <item android:title="Log Out"
+                android:icon="@mipmap/log_out_icon2" />
+        </menu>
+    </item>
+
+</menu>

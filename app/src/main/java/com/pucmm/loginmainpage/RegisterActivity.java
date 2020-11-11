@@ -29,7 +29,7 @@ public class RegisterActivity extends AppCompatActivity {
     private void cargarFoto() {
         Intent intent = new Intent(Intent.ACTION_PICK, MediaStore.Images.Media.EXTERNAL_CONTENT_URI);
         intent.setType("image/");
-        startActivityForResult(intent.createChooser(intent, "Seleccione la Aplicación"), 10);
+        startActivityForResult(intent.createChooser(intent, "Seleccione la aplicación"), 10);
 
     }
 
