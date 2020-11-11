@@ -1,3 +1,4 @@
 <resources>
     <string name="app_name">LoginMainPage</string>
+    <string name="splashEcommerceText">E-Commerce</string>
 </resources>
