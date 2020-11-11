@@ -1,4 +1,11 @@
 <resources>
     <string name="app_name">LoginMainPage</string>
-    <string name="splashEcommerceText">E-Commerce</string>
+    <string name="splash_ecommerce_text">E-Commerce</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_user">Enter user</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="enter_telephone">Enter telephone</string>
+    <string name="register_text_btn">Register</string>
 </resources>
