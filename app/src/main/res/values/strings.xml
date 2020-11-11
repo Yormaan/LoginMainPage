@@ -8,4 +8,7 @@
     <string name="confirm_password">Confirm password</string>
     <string name="enter_telephone">Enter telephone</string>
     <string name="register_text_btn">Register</string>
+    <string name="register_now_text_btn">REGISTER NOW</string>
+    <string name="login_now_text_btn">LOGIN NOW</string>
+    <string name="get_password_btn_text">GET PASSWORD</string>
 </resources>
