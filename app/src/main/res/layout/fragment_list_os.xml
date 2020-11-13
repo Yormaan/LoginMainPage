@@ -14,7 +14,7 @@
             <ListView
                     android:layout_width="417dp"
                     android:layout_height="730dp" android:id="@+id/list_view_fragment_id"
-                    android:background="#FFFFF"
+                    android:background="#A5D6A7"
                     android:paddingLeft="10dp" android:baselineAligned="false"
                     app:layout_constraintTop_toTopOf="parent" app:layout_constraintBottom_toBottomOf="parent"
                     app:layout_constraintStart_toStartOf="parent"/>
