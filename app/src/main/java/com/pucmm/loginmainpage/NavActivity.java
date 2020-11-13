@@ -5,6 +5,8 @@ import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
 
+import androidx.core.view.GravityCompat;
+import androidx.fragment.app.FragmentManager;
 import com.google.android.material.floatingactionbutton.FloatingActionButton;
 import com.google.android.material.snackbar.Snackbar;
 import com.google.android.material.navigation.NavigationView;
@@ -26,6 +28,7 @@ public class NavActivity extends AppCompatActivity implements NavigationView.OnN
     private DrawerLayout drawerLayout;
     private NavigationView navigationView;
 
+
     @Override
     protected void onCreate(Bundle savedInstanceState) {
         super.onCreate(savedInstanceState);
@@ -46,13 +49,25 @@ public class NavActivity extends AppCompatActivity implements NavigationView.OnN
 
         drawerLayout.addDrawerListener(actionBarDrawerToggle);
         actionBarDrawerToggle.syncState();
+
+        //Action when clicked list os view
         navigationView.setNavigationItemSelectedListener(this);
+
 
     }
 
+    //Case for each case of selected item in the Drawer menu
     @Override
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
-        return false;
+        switch (item.getItemId()){
+            case R.id.list_os_id:
+                getSupportFragmentManager().beginTransaction().replace(R.id.navigation_container, new ListOsFragment()).commit();
+                break;
+        }
+        //Close the menu when an item is selected
+        drawerLayout.closeDrawer(GravityCompat.START);
+        //return true to listen a selected item
+        return true;
     }
 
     @Override

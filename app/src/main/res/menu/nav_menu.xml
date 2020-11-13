@@ -21,6 +21,7 @@
     <item android:title="" android:checkable="true">
         <menu>
             <item android:title="List OS"
+                android:id="@+id/list_os_id"
                 android:icon="@mipmap/list_os_icon" />
         </menu>
     </item>
