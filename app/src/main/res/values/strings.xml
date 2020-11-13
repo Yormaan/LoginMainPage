@@ -1,3 +1,20 @@
 <resources>
     <string name="app_name">LoginMainPage</string>
+    <string name="splash_ecommerce_text">E-Commerce</string>
+    <string name="enter_name">Enter name</string>
+    <string name="enter_user">Enter user</string>
+    <string name="enter_email">Enter email</string>
+    <string name="enter_password">Enter password</string>
+    <string name="confirm_password">Confirm password</string>
+    <string name="enter_telephone">Enter telephone</string>
+    <string name="register_text_btn">Register</string>
+    <string name="register_now_text_btn">REGISTER NOW</string>
+    <string name="login_now_text_btn">LOGIN NOW</string>
+    <string name="get_password_btn_text">GET PASSWORD</string>
+    <string name="forgot_password_text_btn">FORGOT PASSWORD</string>
+
+    <string name="my_files">My Files</string>
+    <string name="shared">Shared</string>
+    <string name="openNavDrawer">Navigation Drawer Open</string>
+    <string name="closeNavDrawer">Navigation Drawer Close</string>
 </resources>
