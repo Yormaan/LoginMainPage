@@ -8,13 +8,13 @@
             <item android:title="Home"
                 android:icon="@mipmap/home_icon" />
             <item android:title="Category"
-                android:icon="@mipmap/category_icon" />
+                android:icon="@mipmap/category_icon_forms" />
             <item android:title="Product"
                 android:icon="@mipmap/product_icon" />
             <item android:title="Order"
                 android:icon="@mipmap/order_icon" />
             <item android:title="Order Tracking"
-                android:icon="@mipmap/order_tracking_icon" />
+                android:icon="@mipmap/order_tracking_icon_phone" />
         </menu>
     </item>
 
