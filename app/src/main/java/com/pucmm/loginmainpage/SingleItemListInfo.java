@@ -7,9 +7,9 @@ public class SingleItemListInfo {
     private String title;
     private String description;
 
-    public SingleItemListInfo(int image_avatar, int id, String title, String description) {
-        this.image_avatar = image_avatar;
+    public SingleItemListInfo(int id,int image_avatar, String title, String description) {
         this.id = id;
+        this.image_avatar = image_avatar;
         this.title = title;
         this.description = description;
     }

@@ -3,29 +3,45 @@
               xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
               android:layout_width="match_parent"
               android:layout_height="match_parent"
+              android:background="@android:color/white"
               android:orientation="vertical">
 
     <LinearLayout
             android:orientation="horizontal"
+
             android:layout_width="match_parent"
             android:layout_height="wrap_content">
         <ImageView
-                android:layout_width="300dp"
-                android:layout_height="wrap_content" tools:srcCompat="@tools:sample/avatars" android:id="@+id/image_list_view_id"
-                android:layout_weight="1"/>
+                android:layout_width="100dp"
+                android:layout_height="100dp"
+                android:layout_marginTop="15dp"
+                android:layout_marginRight="10dp"
+                android:id="@+id/image_list_view_id"
+        />
         <LinearLayout
                 android:orientation="vertical"
-                android:layout_width="match_parent"
-                android:layout_height="match_parent" android:layout_weight="1">
+
+                android:layout_width="wrap_content"
+                android:layout_height="wrap_content">
             <TextView
+                    android:id="@+id/title_single_item_list_view_id"
+                    android:layout_marginTop="10dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/bubbler_one"
                     android:text="TextView"
-                    android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/title_single_item_list_view_id" android:textSize="18sp"
+                    android:layout_width="wrap_content"
+                    android:layout_height="wrap_content"
+                    android:textSize="18sp"
                     android:textStyle="bold"/>
             <TextView
+                    android:id="@+id/desc_single_item_list_view_id"
+                    android:layout_marginBottom="15dp"
+                    android:textColor="@android:color/black"
+                    android:fontFamily="@font/bubbler_one"
+                    android:layout_marginRight="10dp"
                     android:text="TextView"
                     android:layout_width="match_parent"
-                    android:layout_height="wrap_content" android:id="@+id/desc_single_item_list_view_id"/>
+                    android:layout_height="wrap_content"/>
         </LinearLayout>
     </LinearLayout>
 </LinearLayout>

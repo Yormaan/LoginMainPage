@@ -26,13 +26,14 @@
         </menu>
     </item>
 
-    <item android:title="">
+    <item android:title="" android:checkable="true">
         <menu>
             <item android:title="Help"
                 android:icon="@mipmap/help_icon" />
             <item android:title="Profile"
                 android:icon="@mipmap/userpicturei" />
             <item android:title="Log Out"
+                  android:id="@+id/log_out_id"
                 android:icon="@mipmap/log_out_icon2" />
         </menu>
     </item>

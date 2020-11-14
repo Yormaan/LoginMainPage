@@ -1,5 +1,6 @@
 package com.pucmm.loginmainpage;
 
+import android.content.Intent;
 import android.os.Bundle;
 import android.view.MenuItem;
 import android.view.View;
@@ -64,6 +65,10 @@ public class NavActivity extends AppCompatActivity implements NavigationView.OnN
             case R.id.list_os_id:
                 getSupportFragmentManager().beginTransaction().replace(R.id.navigation_container, new ListOsFragment()).commit();
                 break;
+            case R.id.log_out_id:
+                //Invalidate cookies for the project
+                Intent intent = new Intent(NavActivity.this, LoginActivity.class);
+                startActivity(intent);
         }
         //Close the menu when an item is selected
         drawerLayout.closeDrawer(GravityCompat.START);
