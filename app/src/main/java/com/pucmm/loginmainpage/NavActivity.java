@@ -2,6 +2,7 @@ package com.pucmm.loginmainpage;
 
 import android.content.Intent;
 import android.os.Bundle;
+import android.view.MenuInflater;
 import android.view.MenuItem;
 import android.view.View;
 import android.view.Menu;
@@ -57,6 +58,17 @@ public class NavActivity extends AppCompatActivity implements NavigationView.OnN
 
 
     }
+
+    @Override
+    public boolean onCreateOptionsMenu(Menu menu) {
+        MenuInflater inflater = getMenuInflater();
+        inflater.inflate(R.menu.top_app_bar_menu, menu);
+        return true;
+    }
+    /*
+    For handling menu options in top bar use:
+    onOptionsItemSelected override method
+     */
 
     //Case for each case of selected item in the Drawer menu
     @Override

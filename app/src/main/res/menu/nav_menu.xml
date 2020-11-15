@@ -1,12 +1,12 @@
 <?xml version="1.0" encoding="utf-8"?>
 <menu xmlns:android="http://schemas.android.com/apk/res/android"
-      xmlns:tools="http://schemas.android.com/tools"
+      xmlns:app="http://schemas.android.com/apk/res-auto" xmlns:tools="http://schemas.android.com/tools"
         tools:showIn="navigation_view">
 
     <item android:title="">
         <menu>
             <item android:title="Home"
-                android:icon="@mipmap/home_icon" />
+                  android:icon="@mipmap/home_icon" />
             <item android:title="Category"
                 android:icon="@mipmap/category_icon_forms" />
             <item android:title="Product"
