@@ -75,7 +75,7 @@ public class NavActivity extends AppCompatActivity implements NavigationView.OnN
     public boolean onNavigationItemSelected(@NonNull MenuItem item) {
         switch (item.getItemId()){
             case R.id.list_os_id:
-                getSupportFragmentManager().beginTransaction().replace(R.id.navigation_container, new ListOsFragment()).commit();
+                getSupportFragmentManager().beginTransaction().replace(R.id.container, new ListOsFragment()).commit();
                 break;
             case R.id.log_out_id:
                 //Invalidate cookies for the project
