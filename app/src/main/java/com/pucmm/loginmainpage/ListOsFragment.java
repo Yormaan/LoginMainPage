@@ -1,8 +1,6 @@
 package com.pucmm.loginmainpage;
 
-import android.annotation.SuppressLint;
 import android.os.Bundle;
-import android.widget.ListView;
 import androidx.annotation.Nullable;
 import androidx.fragment.app.Fragment;
 import android.view.LayoutInflater;
@@ -10,17 +8,11 @@ import android.view.View;
 import android.view.ViewGroup;
 import androidx.recyclerview.widget.LinearLayoutManager;
 import androidx.recyclerview.widget.RecyclerView;
-
 import java.util.ArrayList;
-import java.util.Arrays;
 import java.util.List;
 
 
 public class ListOsFragment extends Fragment {
-
-
-    public ListOsFragment() {
-    }
 
     private RecyclerView recycle_item_list_view;
     private List<SingleItemListInfo> array_info_item;
@@ -33,9 +25,9 @@ public class ListOsFragment extends Fragment {
         recycle_item_list_view = show_view.findViewById(R.id.recycle_id);
         array_info_item = new ArrayList<>();
         recycle_item_list_view.setLayoutManager(new LinearLayoutManager(getContext()));
+        recycle_item_list_view.setHasFixedSize(true);
 
         fill_list();
-        recycle_item_list_view.setHasFixedSize(true);
         AdapterItemList adapter = new AdapterItemList(array_info_item);
         recycle_item_list_view.setAdapter(adapter);
 
